@@ -1,12 +1,15 @@
 $(document).ready(function(){
 
 	var	spaceShip = $('div.spaceShip'),
+
 		neptune = $('.home_neptune'),
 		uranus = $('.home_uranus'),
 		saturn = $('.home_saturn'),
 		jupiter = $('.home_jupiter'),
 		mars = $('.home_mars'),
 		earth = $('.home_earth'),
+		venus = $('.home_venus'),
+		mercury = $('.home_mercury'),
 
 		underNeptune = false,
 		underUranus = false,
@@ -14,6 +17,8 @@ $(document).ready(function(){
 		underJupiter = false,
 		underMars = false,
 		underEarth = false,
+		underVenus = false,
+		underMercury = false,
 
 		h = $(window).height(),
 		w = $(window).width() - 100,
@@ -69,6 +74,20 @@ $(document).ready(function(){
 		Bottom: function() {return earth.offset().top + earth.height()}
 	};
 
+	var venusPosition = {
+		Left: function() {return venus.offset().left},
+		Right: function() {return venus.offset().left + venus.width()},
+		Top: function() {return venus.offset().top},
+		Bottom: function() {return venus.offset().top + venus.height()}
+	};
+
+	var mercuryPosition = {
+		Left: function() {return mercury.offset().left},
+		Right: function() {return mercury.offset().left + mercury.width()},
+		Top: function() {return mercury.offset().top},
+		Bottom: function() {return mercury.offset().top + mercury.height()}
+	};
+
 	
 	
 
@@ -97,6 +116,8 @@ $(document).ready(function(){
 			if (underJupiter) {tripTo('jupiter')}
 			if (underMars) {tripTo('mars')}
 			if (underEarth) {tripTo('earth')}
+			if (underVenus) {tripTo('venus')}
+			if (underMercury) {tripTo('mercury')}
 		}
 	});
 
@@ -160,6 +181,22 @@ $(document).ready(function(){
 
 		if (underEarth) {spaceShip.addClass('spaceShip_tip-earth')}
 			else {spaceShip.removeClass('spaceShip_tip-earth')}
+
+		// venus
+		if(shipPosition.X() > venusPosition.Left() && shipPosition.X() < venusPosition.Right() && shipPosition.Y() > venusPosition.Top() && shipPosition.Y() < venusPosition.Bottom()) {
+			underVenus = true;}
+		else { underVenus = false;}
+
+		if (underVenus) {spaceShip.addClass('spaceShip_tip-venus')}
+			else {spaceShip.removeClass('spaceShip_tip-venus')}
+
+		// mercury
+		if(shipPosition.X() > mercuryPosition.Left() && shipPosition.X() < mercuryPosition.Right() && shipPosition.Y() > mercuryPosition.Top() && shipPosition.Y() < mercuryPosition.Bottom()) {
+			underMercury = true;}
+		else { underMercury = false;}
+
+		if (underMercury) {spaceShip.addClass('spaceShip_tip-mercury')}
+			else {spaceShip.removeClass('spaceShip_tip-mercury')}
 		
 	});
 
