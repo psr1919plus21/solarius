@@ -1,0 +1,162 @@
+/* line 1, ../sass/_reset.scss */
+html { font-size: 75%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; text-size-adjust: 100%; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+
+/* line 2, ../sass/_reset.scss */
+body { margin: 0; background: #f8f8f8; color: #797A89; font-family: "proxima_novaregular", Arial, Helvetica, sans-serif; font-size: 1em; line-height: 1.7; /*-webkit-transition:font-size 200ms;-moz-transition:font-size 200ms;-o-transition:font-size 200ms;transition:font-size 200ms;*/ }
+
+/* line 3, ../sass/_reset.scss */
+button, input, select, textarea { color: #797A89; font-family: "proxima_novaregular", Arial, Helvetica, sans-serif; font-size: 1em; }
+
+/* line 7, ../sass/_reset.scss */
+a[href^=tel], a[href^=tel]:hover, a.tel, a.tel:hover { color: inherit; text-decoration: none; cursor: text; border-bottom-color: transparent; border-width: 0; }
+
+/* line 8, ../sass/_reset.scss */
+input:focus, textarea:focus { outline: 1px solid #5299fc; }
+
+/* line 9, ../sass/_reset.scss */
+textarea { resize: vertical; }
+
+/* line 10, ../sass/_reset.scss */
+img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
+
+/* line 11, ../sass/_reset.scss */
+video { display: inline-block; }
+
+/* line 12, ../sass/_reset.scss */
+ul, ol { margin: 0; padding: 0; list-style: none; }
+
+/* line 13, ../sass/_reset.scss */
+dl, dt, dd, figure { margin: 0; padding: 0; }
+
+/* line 14, ../sass/_reset.scss */
+p { margin: 25px 0; }
+
+/* line 15, ../sass/_reset.scss */
+li { margin: 0; }
+
+/* line 16, ../sass/_reset.scss */
+table { border-collapse: collapse; border-spacing: 0; }
+
+/* line 17, ../sass/_reset.scss */
+td { vertical-align: top; }
+
+/* line 18, ../sass/_reset.scss */
+blockquote { margin: 18px 40px; }
+
+/* line 19, ../sass/_reset.scss */
+pre, code, kbd, samp { font-family: monospace; font-size: 1em; }
+
+/* line 20, ../sass/_reset.scss */
+pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; }
+
+/* line 22, ../sass/_reset.scss */
+q { quotes: none; }
+
+/* line 26, ../sass/_reset.scss */
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+
+/* line 27, ../sass/_reset.scss */
+sup { top: -.5em; }
+
+/* line 28, ../sass/_reset.scss */
+sub { bottom: -.25em; }
+
+/* line 29, ../sass/_reset.scss */
+form { margin: 0; }
+
+/* line 30, ../sass/_reset.scss */
+fieldset { border: 0; margin: 0; padding: 0; }
+
+/* line 31, ../sass/_reset.scss */
+label { cursor: pointer; }
+
+@font-face { font-family: 'exoregular'; src: url("../fonts/exo-regular-webfont.eot"); src: url("../fonts/exo-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/exo-regular-webfont.woff") format("woff"), url("../fonts/exo-regular-webfont.ttf") format("truetype"), url("../fonts/exo-regular-webfont.svg#exoregular") format("svg"); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: 'playregular'; src: url("../fonts/play-regular-webfont.eot"); src: url("../fonts/play-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/play-regular-webfont.woff") format("woff"), url("../fonts/play-regular-webfont.ttf") format("truetype"), url("../fonts/play-regular-webfont.svg#playregular") format("svg"); font-weight: normal; font-style: normal; }
+
+/* line 2, ../sass/_solarius.home.scss */
+body { background: #000; cursor: none; font-family: sans-serif; margin: 0; }
+
+/* line 3, ../sass/_solarius.home.scss */
+.home_header { text-align: center; }
+/* line 4, ../sass/_solarius.home.scss */
+.home_header h1 { color: #679; font-family: playregular; font-size: 100px; margin: 0; }
+/* line 5, ../sass/_solarius.home.scss */
+.home_header p { font-size: 16px; margin: 0; }
+
+/* line 7, ../sass/_solarius.home.scss */
+.spacetrip { display: none; background: #333333 url("../img/space-trip.gif") no-repeat center center; -webkit-background-size: cover cover; background-size: cover; width: 100%; }
+
+/* line 8, ../sass/_solarius.home.scss */
+.spacetrip__active { display: block; }
+
+/* line 9, ../sass/_solarius.home.scss */
+.spaceShip { background: url("../img/ship.gif") no-repeat left top; -webkit-background-size: contain contain; background-size: contain; height: 60px; position: absolute; width: 100px; }
+
+/* line 10, ../sass/_solarius.home.scss */
+.rounded { border-radius: 50%; }
+
+/* line 11, ../sass/_solarius.home.scss */
+.planet { margin-top: 3%; text-align: center; }
+/* line 12, ../sass/_solarius.home.scss */
+.planet img { width: 40%; }
+
+/* line 14, ../sass/_solarius.home.scss */
+.home_neptune { max-width: 150px; margin: auto; margin-top: 3%; }
+/* line 15, ../sass/_solarius.home.scss */
+.home_neptune img { width: 100%; }
+
+/* line 16, ../sass/_solarius.home.scss */
+.home_uranus { max-width: 120px; margin-left: 80%; margin-top: 5%; }
+/* line 17, ../sass/_solarius.home.scss */
+.home_uranus img { width: 100%; }
+
+/* line 18, ../sass/_solarius.home.scss */
+.home_saturn { max-width: 300px; margin-left: 10%; margin-top: 5%; }
+/* line 19, ../sass/_solarius.home.scss */
+.home_saturn img { width: 100%; }
+
+/* line 20, ../sass/_solarius.home.scss */
+.home_jupiter { max-width: 300px; margin-left: 60%; margin-top: 5%; }
+/* line 21, ../sass/_solarius.home.scss */
+.home_jupiter img { width: 100%; }
+
+/* line 22, ../sass/_solarius.home.scss */
+.home_mars { max-width: 120px; margin-left: 30%; margin-top: 3%; }
+/* line 23, ../sass/_solarius.home.scss */
+.home_mars img { width: 100%; }
+
+/* line 24, ../sass/_solarius.home.scss */
+.home_earth { max-width: 140px; margin-left: 60%; margin-top: 3%; }
+/* line 25, ../sass/_solarius.home.scss */
+.home_earth img { width: 100%; }
+
+/* line 28, ../sass/_solarius.home.scss */
+.spaceShip_tip-neptune:before { content: "CAPTAIN, I SEE NEPTUNE !!!"; background: rgba(255, 255, 255, 0.3); border-radius: 8px 6px 6px 8px; color: #fff; display: block; font-family: playregular; font-size: 18px; left: -270px; position: relative; padding: 5px 10px; width: 230px; }
+/* line 29, ../sass/_solarius.home.scss */
+.spaceShip_tip-neptune:after { content: ""; display: block; border: 10px solid; border-color: rgba(255, 255, 255, 0.3) rgba(255, 255, 255, 0.3) rgba(255, 255, 255, 0) rgba(255, 255, 255, 0); height: 0; left: -30px; position: relative; top: -30px; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); width: 0; }
+
+/* line 31, ../sass/_solarius.home.scss */
+.spaceShip_tip-uranus:before { content: "CAPTAIN, I SEE URANUS !!!"; background: rgba(255, 255, 255, 0.3); border-radius: 8px 6px 6px 8px; color: #fff; display: block; font-family: playregular; font-size: 18px; left: -260px; position: relative; padding: 5px 10px; width: 220px; }
+/* line 32, ../sass/_solarius.home.scss */
+.spaceShip_tip-uranus:after { content: ""; display: block; border: 10px solid; border-color: rgba(255, 255, 255, 0.3) rgba(255, 255, 255, 0.3) rgba(255, 255, 255, 0) rgba(255, 255, 255, 0); height: 0; left: -30px; position: relative; top: -30px; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); width: 0; }
+
+/* line 34, ../sass/_solarius.home.scss */
+.spaceShip_tip-saturn:before { content: "CAPTAIN, I SEE SATURN !!!"; background: rgba(255, 255, 255, 0.3); border-radius: 8px 6px 6px 8px; color: #fff; display: block; font-family: playregular; font-size: 18px; left: 120px; position: relative; padding: 5px 10px; width: 220px; }
+/* line 35, ../sass/_solarius.home.scss */
+.spaceShip_tip-saturn:after { content: ""; display: block; border: 10px solid; border-color: rgba(255, 255, 255, 0.3) rgba(255, 255, 255, 0.3) rgba(255, 255, 255, 0) rgba(255, 255, 255, 0); height: 0; left: 110px; position: relative; top: -30px; -webkit-transform: rotate(-135deg); -ms-transform: rotate(-135deg); transform: rotate(-135deg); width: 0; }
+
+/* line 37, ../sass/_solarius.home.scss */
+.spaceShip_tip-jupiter:before { content: "CAPTAIN, I SEE JUPITER !!!"; background: rgba(255, 255, 255, 0.3); border-radius: 8px 6px 6px 8px; color: #fff; display: block; font-family: playregular; font-size: 18px; left: -260px; position: relative; padding: 5px 10px; width: 220px; }
+/* line 38, ../sass/_solarius.home.scss */
+.spaceShip_tip-jupiter:after { content: ""; display: block; border: 10px solid; border-color: rgba(255, 255, 255, 0.3) rgba(255, 255, 255, 0.3) rgba(255, 255, 255, 0) rgba(255, 255, 255, 0); height: 0; left: -30px; position: relative; top: -30px; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); width: 0; }
+
+/* line 40, ../sass/_solarius.home.scss */
+.spaceShip_tip-mars:before { content: "CAPTAIN, I SEE MARS !!!"; background: rgba(255, 255, 255, 0.3); border-radius: 8px 6px 6px 8px; color: #fff; display: block; font-family: playregular; font-size: 18px; left: -260px; position: relative; padding: 5px 10px; width: 220px; }
+/* line 41, ../sass/_solarius.home.scss */
+.spaceShip_tip-mars:after { content: ""; display: block; border: 10px solid; border-color: rgba(255, 255, 255, 0.3) rgba(255, 255, 255, 0.3) rgba(255, 255, 255, 0) rgba(255, 255, 255, 0); height: 0; left: -30px; position: relative; top: -30px; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); width: 0; }
+
+/* line 43, ../sass/_solarius.home.scss */
+.spaceShip_tip-earth:before { content: "CAPTAIN, I SEE EARTH !!!"; background: rgba(255, 255, 255, 0.3); border-radius: 8px 6px 6px 8px; color: #fff; display: block; font-family: playregular; font-size: 18px; left: -260px; position: relative; padding: 5px 10px; width: 220px; }
+/* line 44, ../sass/_solarius.home.scss */
+.spaceShip_tip-earth:after { content: ""; display: block; border: 10px solid; border-color: rgba(255, 255, 255, 0.3) rgba(255, 255, 255, 0.3) rgba(255, 255, 255, 0) rgba(255, 255, 255, 0); height: 0; left: -30px; position: relative; top: -30px; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); width: 0; }
