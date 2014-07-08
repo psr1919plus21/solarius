@@ -10,6 +10,7 @@ $(document).ready(function(){
 		earth = $('.home_earth'),
 		venus = $('.home_venus'),
 		mercury = $('.home_mercury'),
+		sun = $('.home_sun'),
 
 		underNeptune = false,
 		underUranus = false,
@@ -19,6 +20,7 @@ $(document).ready(function(){
 		underEarth = false,
 		underVenus = false,
 		underMercury = false,
+		underSun = false,
 
 		h = $(window).height(),
 		w = $(window).width() - 100,
@@ -88,6 +90,13 @@ $(document).ready(function(){
 		Bottom: function() {return mercury.offset().top + mercury.height()}
 	};
 
+	var sunPosition = {
+		Left: function() {return sun.offset().left},
+		Right: function() {return sun.offset().left + sun.width()},
+		Top: function() {return sun.offset().top},
+		Bottom: function() {return sun.offset().top + sun.height()}
+	};
+
 	
 	
 
@@ -118,6 +127,7 @@ $(document).ready(function(){
 			if (underEarth) {tripTo('earth')}
 			if (underVenus) {tripTo('venus')}
 			if (underMercury) {tripTo('mercury')}
+			if (underSun) {tripTo('sun')}
 		}
 	});
 
@@ -197,10 +207,16 @@ $(document).ready(function(){
 
 		if (underMercury) {spaceShip.addClass('spaceShip_tip-mercury')}
 			else {spaceShip.removeClass('spaceShip_tip-mercury')}
+
+		// sun
+		if(shipPosition.X() > sunPosition.Left() && shipPosition.X() < sunPosition.Right() && shipPosition.Y() > sunPosition.Top() && shipPosition.Y() < sunPosition.Bottom()) {
+			underSun = true;}
+		else { underSun = false;}
+
+		if (underSun) {spaceShip.addClass('spaceShip_tip-sun')}
+			else {spaceShip.removeClass('spaceShip_tip-sun')}
 		
 	});
 
-
-
-
+	
 });

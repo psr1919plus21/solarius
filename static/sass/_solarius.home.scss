@@ -4,6 +4,7 @@ body {background: #000;cursor:none;font-family:sans-serif;margin:0;}
 	h1 {color:#679;font-family:playregular;font-size:100px;margin:0;}
 	p {font-size:16px;margin:0;}}
 
+
 .spacetrip {display:none;background:#333 url('../img/space-trip.gif')no-repeat center center;background-size:cover;width:100%;}
 .spacetrip__active {display:block;}
 .spaceShip {background:url('../img/ship.gif')no-repeat left top;background-size:contain;height:60px;position:absolute;width:100px;}
@@ -26,6 +27,8 @@ body {background: #000;cursor:none;font-family:sans-serif;margin:0;}
 .home_venus {max-width:110px;margin-left:40%;margin-top:3%;
 	img {width:100%;}}
 .home_mercury {max-width:150px;margin-left:10%;margin-top:3%;
+	img {width:100%;}}
+.home_sun {max-width:50%;margin:auto;margin-top:3%;
 	img {width:100%;}}
 
 .spaceShip_tip-neptune {
@@ -51,4 +54,7 @@ body {background: #000;cursor:none;font-family:sans-serif;margin:0;}
 	&:after {content:"";display:block;border:10px solid;border-color:rgba(255,255,255,.3) rgba(255,255,255,.3) rgba(255,255,255,0) rgba(255,255,255,0); height:0;left:-30px;position:relative;top:-30px;transform:rotate(45deg);width:0;}}
 .spaceShip_tip-mercury {
 	&:before {content:"CAPTAIN, I SEE MERCURY !!!";background:rgba(255,255,255,.3);border-radius:8px 6px 6px 8px ;color:#fff;display:block;font-family:playregular;font-size:18px;left:120px;position:relative;padding:5px 10px;width:230px;}
+	&:after {content:"";display:block;border:10px solid;border-color:rgba(255,255,255,.3) rgba(255,255,255,.3) rgba(255,255,255,0) rgba(255,255,255,0); height:0;left:110px;position:relative;top:-30px;transform:rotate(-135deg);width:0;}}
+.spaceShip_tip-sun {
+	&:before {content:"IT'S ABSOLUTELY CRAZY IDEA !!!";background:rgba(255,255,255,.3);border-radius:8px 6px 6px 8px ;color:#fff;display:block;font-family:playregular;font-size:18px;left:120px;position:relative;padding:5px 10px;width:280px;}
 	&:after {content:"";display:block;border:10px solid;border-color:rgba(255,255,255,.3) rgba(255,255,255,.3) rgba(255,255,255,0) rgba(255,255,255,0); height:0;left:110px;position:relative;top:-30px;transform:rotate(-135deg);width:0;}}
