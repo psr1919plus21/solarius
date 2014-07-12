@@ -93,9 +93,6 @@ body { background: #000; cursor: none; font-family: sans-serif; margin: 0; }
 /* line 10, ../sass/_solarius.home.scss */
 .spaceShip { background: url("../img/ship.gif") no-repeat left top; -webkit-background-size: contain contain; background-size: contain; height: 60px; position: absolute; width: 100px; }
 
-/* line 11, ../sass/_solarius.home.scss */
-.rounded { border-radius: 50%; }
-
 /* line 12, ../sass/_solarius.home.scss */
 .planet { margin-top: 3%; text-align: center; }
 /* line 13, ../sass/_solarius.home.scss */
@@ -147,46 +144,49 @@ body { background: #000; cursor: none; font-family: sans-serif; margin: 0; }
 .home_sun img { width: 100%; }
 
 /* line 35, ../sass/_solarius.home.scss */
-.spaceShip_tip-neptune:before { content: "CAPTAIN, I SEE NEPTUNE !!!"; background: rgba(255, 255, 255, 0.3); border-radius: 8px 6px 6px 8px; color: #fff; display: block; font-family: playregular; font-size: 18px; left: -270px; position: relative; padding: 5px 10px; width: 230px; }
+.spaceShip_tip-neptune:before { content: "CAPTAIN, I SEE NEPTUNE !!! (ENTER to trip)"; background: rgba(255, 255, 255, 0.3); border-radius: 8px 6px 6px 8px; color: #fff; display: block; font-family: playregular; font-size: 18px; left: -270px; position: relative; padding: 5px 10px; text-align: center; width: 230px; }
 /* line 36, ../sass/_solarius.home.scss */
 .spaceShip_tip-neptune:after { content: ""; display: block; border: 10px solid; border-color: rgba(255, 255, 255, 0.3) rgba(255, 255, 255, 0.3) rgba(255, 255, 255, 0) rgba(255, 255, 255, 0); height: 0; left: -30px; position: relative; top: -30px; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); width: 0; }
 
 /* line 38, ../sass/_solarius.home.scss */
-.spaceShip_tip-uranus:before { content: "CAPTAIN, I SEE URANUS !!!"; background: rgba(255, 255, 255, 0.3); border-radius: 8px 6px 6px 8px; color: #fff; display: block; font-family: playregular; font-size: 18px; left: -260px; position: relative; padding: 5px 10px; width: 220px; }
+.spaceShip_tip-uranus:before { content: "CAPTAIN, I SEE URANUS !!! (ENTER to trip)"; background: rgba(255, 255, 255, 0.3); border-radius: 8px 6px 6px 8px; color: #fff; display: block; font-family: playregular; font-size: 18px; left: -260px; position: relative; padding: 5px 10px; text-align: center; width: 220px; }
 /* line 39, ../sass/_solarius.home.scss */
 .spaceShip_tip-uranus:after { content: ""; display: block; border: 10px solid; border-color: rgba(255, 255, 255, 0.3) rgba(255, 255, 255, 0.3) rgba(255, 255, 255, 0) rgba(255, 255, 255, 0); height: 0; left: -30px; position: relative; top: -30px; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); width: 0; }
 
 /* line 41, ../sass/_solarius.home.scss */
-.spaceShip_tip-saturn:before { content: "CAPTAIN, I SEE SATURN !!!"; background: rgba(255, 255, 255, 0.3); border-radius: 8px 6px 6px 8px; color: #fff; display: block; font-family: playregular; font-size: 18px; left: 120px; position: relative; padding: 5px 10px; width: 220px; }
+.spaceShip_tip-saturn:before { content: "CAPTAIN, I SEE SATURN !!! (ENTER to trip)"; background: rgba(255, 255, 255, 0.3); border-radius: 8px 6px 6px 8px; color: #fff; display: block; font-family: playregular; font-size: 18px; left: 120px; position: relative; padding: 5px 10px; text-align: center; width: 220px; }
 /* line 42, ../sass/_solarius.home.scss */
 .spaceShip_tip-saturn:after { content: ""; display: block; border: 10px solid; border-color: rgba(255, 255, 255, 0.3) rgba(255, 255, 255, 0.3) rgba(255, 255, 255, 0) rgba(255, 255, 255, 0); height: 0; left: 110px; position: relative; top: -30px; -webkit-transform: rotate(-135deg); -ms-transform: rotate(-135deg); transform: rotate(-135deg); width: 0; }
 
 /* line 44, ../sass/_solarius.home.scss */
-.spaceShip_tip-jupiter:before { content: "CAPTAIN, I SEE JUPITER !!!"; background: rgba(255, 255, 255, 0.3); border-radius: 8px 6px 6px 8px; color: #fff; display: block; font-family: playregular; font-size: 18px; left: -260px; position: relative; padding: 5px 10px; width: 220px; }
+.spaceShip_tip-jupiter:before { content: "CAPTAIN, I SEE JUPITER !!! (ENTER to trip)"; background: rgba(255, 255, 255, 0.3); border-radius: 8px 6px 6px 8px; color: #fff; display: block; font-family: playregular; font-size: 18px; left: -260px; position: relative; padding: 5px 10px; text-align: center; width: 220px; }
 /* line 45, ../sass/_solarius.home.scss */
 .spaceShip_tip-jupiter:after { content: ""; display: block; border: 10px solid; border-color: rgba(255, 255, 255, 0.3) rgba(255, 255, 255, 0.3) rgba(255, 255, 255, 0) rgba(255, 255, 255, 0); height: 0; left: -30px; position: relative; top: -30px; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); width: 0; }
 
 /* line 47, ../sass/_solarius.home.scss */
-.spaceShip_tip-mars:before { content: "CAPTAIN, I SEE MARS !!!"; background: rgba(255, 255, 255, 0.3); border-radius: 8px 6px 6px 8px; color: #fff; display: block; font-family: playregular; font-size: 18px; left: -260px; position: relative; padding: 5px 10px; width: 220px; }
+.spaceShip_tip-mars:before { content: "CAPTAIN, I SEE MARS !!! (ENTER to trip)"; background: rgba(255, 255, 255, 0.3); border-radius: 8px 6px 6px 8px; color: #fff; display: block; font-family: playregular; font-size: 18px; left: -260px; position: relative; padding: 5px 10px; text-align: center; width: 220px; }
 /* line 48, ../sass/_solarius.home.scss */
 .spaceShip_tip-mars:after { content: ""; display: block; border: 10px solid; border-color: rgba(255, 255, 255, 0.3) rgba(255, 255, 255, 0.3) rgba(255, 255, 255, 0) rgba(255, 255, 255, 0); height: 0; left: -30px; position: relative; top: -30px; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); width: 0; }
 
 /* line 50, ../sass/_solarius.home.scss */
-.spaceShip_tip-earth:before { content: "CAPTAIN, I SEE EARTH !!!"; background: rgba(255, 255, 255, 0.3); border-radius: 8px 6px 6px 8px; color: #fff; display: block; font-family: playregular; font-size: 18px; left: -260px; position: relative; padding: 5px 10px; width: 220px; }
+.spaceShip_tip-earth:before { content: "CAPTAIN, I SEE EARTH !!! (ENTER to trip)"; background: rgba(255, 255, 255, 0.3); border-radius: 8px 6px 6px 8px; color: #fff; display: block; font-family: playregular; font-size: 18px; left: -260px; position: relative; padding: 5px 10px; text-align: center; width: 220px; }
 /* line 51, ../sass/_solarius.home.scss */
 .spaceShip_tip-earth:after { content: ""; display: block; border: 10px solid; border-color: rgba(255, 255, 255, 0.3) rgba(255, 255, 255, 0.3) rgba(255, 255, 255, 0) rgba(255, 255, 255, 0); height: 0; left: -30px; position: relative; top: -30px; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); width: 0; }
 
 /* line 53, ../sass/_solarius.home.scss */
-.spaceShip_tip-venus:before { content: "CAPTAIN, I SEE VENUS !!!"; background: rgba(255, 255, 255, 0.3); border-radius: 8px 6px 6px 8px; color: #fff; display: block; font-family: playregular; font-size: 18px; left: -260px; position: relative; padding: 5px 10px; width: 220px; }
+.spaceShip_tip-venus:before { content: "CAPTAIN, I SEE VENUS !!! (ENTER to trip)"; background: rgba(255, 255, 255, 0.3); border-radius: 8px 6px 6px 8px; color: #fff; display: block; font-family: playregular; font-size: 18px; left: -260px; position: relative; padding: 5px 10px; text-align: center; width: 220px; }
 /* line 54, ../sass/_solarius.home.scss */
 .spaceShip_tip-venus:after { content: ""; display: block; border: 10px solid; border-color: rgba(255, 255, 255, 0.3) rgba(255, 255, 255, 0.3) rgba(255, 255, 255, 0) rgba(255, 255, 255, 0); height: 0; left: -30px; position: relative; top: -30px; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); width: 0; }
 
 /* line 56, ../sass/_solarius.home.scss */
-.spaceShip_tip-mercury:before { content: "CAPTAIN, I SEE MERCURY !!!"; background: rgba(255, 255, 255, 0.3); border-radius: 8px 6px 6px 8px; color: #fff; display: block; font-family: playregular; font-size: 18px; left: 120px; position: relative; padding: 5px 10px; width: 230px; }
+.spaceShip_tip-mercury:before { content: "CAPTAIN, I SEE MERCURY !!! (ENTER to trip)"; background: rgba(255, 255, 255, 0.3); border-radius: 8px 6px 6px 8px; color: #fff; display: block; font-family: playregular; font-size: 18px; left: 120px; position: relative; padding: 5px 10px; text-align: center; width: 230px; }
 /* line 57, ../sass/_solarius.home.scss */
 .spaceShip_tip-mercury:after { content: ""; display: block; border: 10px solid; border-color: rgba(255, 255, 255, 0.3) rgba(255, 255, 255, 0.3) rgba(255, 255, 255, 0) rgba(255, 255, 255, 0); height: 0; left: 110px; position: relative; top: -30px; -webkit-transform: rotate(-135deg); -ms-transform: rotate(-135deg); transform: rotate(-135deg); width: 0; }
 
 /* line 59, ../sass/_solarius.home.scss */
-.spaceShip_tip-sun:before { content: "IT'S ABSOLUTELY CRAZY IDEA !!!"; background: rgba(255, 255, 255, 0.3); border-radius: 8px 6px 6px 8px; color: #fff; display: block; font-family: playregular; font-size: 18px; left: 120px; position: relative; padding: 5px 10px; width: 280px; }
+.spaceShip_tip-sun:before { content: "IT'S ABSOLUTELY CRAZY IDEA !!! (ENTER to trip)"; background: rgba(255, 255, 255, 0.3); border-radius: 8px 6px 6px 8px; color: #fff; display: block; font-family: playregular; font-size: 18px; left: 120px; position: relative; padding: 5px 10px; text-align: center; width: 280px; }
 /* line 60, ../sass/_solarius.home.scss */
 .spaceShip_tip-sun:after { content: ""; display: block; border: 10px solid; border-color: rgba(255, 255, 255, 0.3) rgba(255, 255, 255, 0.3) rgba(255, 255, 255, 0) rgba(255, 255, 255, 0); height: 0; left: 110px; position: relative; top: -30px; -webkit-transform: rotate(-135deg); -ms-transform: rotate(-135deg); transform: rotate(-135deg); width: 0; }
+
+/* line 62, ../sass/_solarius.home.scss */
+.home_footer-copy { cursor: pointer; margin-top: 40px; text-align: center; }
