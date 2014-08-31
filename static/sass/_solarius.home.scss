@@ -1,16 +1,14 @@
-
-body {background: #000;cursor:none;font-family:sans-serif;margin:0;}
+body {background: #000;font-family:sans-serif;margin:0;}
 .home_header {text-align:center;
 	h1 {color:#679;font-family:playregular;font-size:100px;margin:0;}
 	p {font-size:16px;margin:0;}}
 
 
-.spacetrip {display:none;background:#333 url('../img/space-trip.gif')no-repeat center center;background-size:cover;width:100%;}
+.spacetrip {display:none;background:#333 url('../img/space-trip.gif')no-repeat center center;background-size:cover;position:absolute;top:0;width:100%;}
 .spacetrip__active {display:block;}
 .spaceShip {background:url('../img/ship.gif')no-repeat left top;background-size:contain;height:60px;position:absolute;width:100px;}
 
-.planet {margin-top:3%;text-align:center;
-	img {width:40%;}}
+
 
 .home_neptune {max-width:150px;margin:auto;margin-top:3%;
 	img {width:100%;}}
